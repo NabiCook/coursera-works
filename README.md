@@ -1,5 +1,8 @@
 # Coursera: Google Cybersecurity Professional Certificate
 
+
+[![coursera_cert](https://www.coursera.org/account/accomplishments/professional-cert/JXOCGNV0WXXF "coursera_cert")](https://s3.amazonaws.com/coursera_assets/meta_images/generated/CERTIFICATE_LANDING_PAGE/CERTIFICATE_LANDING_PAGE~JXOCGNV0WXXF/CERTIFICATE_LANDING_PAGE~JXOCGNV0WXXF.jpeg "coursera_cert")
+
 This repository contains my portfolio activities and assignments from the Google Cybersecurity program on Coursera. The work below demonstrates my skills in Python automation, Linux/SQL, network security, and security data analysis.
 
 ---
