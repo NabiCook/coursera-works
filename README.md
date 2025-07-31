@@ -12,14 +12,12 @@ This repository contains my portfolio activities and assignments from the Google
 ### Automating Cybersecurity Tasks with Python
 
 * **Example: File Update Algorithm**
-	This script opens a file and modifies its contents.
-
 	```python
 	import_file = "allow_list.txt"
 	with open(import_file, "r") as file:
 		ip_addressess = file.read()
 	```
-This code snippet opens the file in read mode (`"r"`) to access its contents. The `.read()` method loads the file's contents into a single string.
+This code snippet opens the file in read mode `"r"` to access its contents. The `.read()` method loads the file's contents into a single string.
 
 To convert the string of IP addresses into a list, the `.split()` method is used.
 ```python
@@ -35,7 +33,7 @@ for element in ip_addresses:
 
 ip_addresses = " ".join(ip_addresses) 	
 ```
-The `join()` method, with a space as a separator, converts the list back into a single string, preparing it to be written back to the file.
+Then `join()` with a space separator converts the list back into a single string to later write back into the file.
 
 ```python
 	with open(import_file, "w") as file:
@@ -65,7 +63,7 @@ The command above uses `-` to remove the write (`w`) permission from the 'Other'
 
 
 * **Example: SQL Query**
-	This query searches for failed login attempts (`success = 0`) that occurred after 6 PM. This is a critical step in identifying suspicious behavior.
+	This query searches for failed login attempts (`success = 1, fail = 0`) that occurred after 6 PM. This is a critical step in identifying suspicious behavior.
 	```sql
 	SELECT *
 	FROM log_in_attempts
