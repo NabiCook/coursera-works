@@ -82,7 +82,7 @@ This section showcases the use of essential Linux command-line tools and SQL que
 [**View the file report.**](https://github.com/NabiCook/coursera-works/blob/main/GoogleCybersecurity/Incident%20report%20analysis.docx)
 
 ![Data Leak Analysis Sample](https://raw.githubusercontent.com/NabiCook/coursera-works/main/GoogleCybersecurity/img/data_leak.jpg)
-> This report covers an incident where a sales manager left access to internal-only files available, resulting in a data leak. After a thorough analysis, suggestions were made to align with NIST SP 800-53 guidelines. Recommendations included implementing a user access timeout and role-based permission controls to prevent unauthorized access. An automatic timeout system would have revoked access to the link before it could be opened, and a permission system would have prevented the external partner from viewing internal-only content.
+> This report covers an incident where a sales manager left access to internal-only files available, resulting in a data leak. After a thorough analysis, suggestions were made to align with NIST SP 800-53: AC-6 guidelines. Recommendations included implementing a user access timeout and role-based permission controls to prevent unauthorized access. An automatic timeout system would have revoked access to the link before it could be opened, and a permission system would have prevented the external partner from viewing internal-only content.
 
 [**View the file report.**](https://github.com/NabiCook/coursera-works/blob/main/GoogleCybersecurity/Activity%20Template_%20Data%20leak%20worksheet.docx)
 
